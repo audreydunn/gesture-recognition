@@ -1,0 +1,91 @@
+#game {
+    position: absolute;
+    top: 250px;
+    right: 0px;
+    width: 1750px;
+    height: 350px;
+    border: 3px solid forestgreen;
+    border-style: outset;
+    overflow-x: hidden;
+}
+
+#marker1 {
+    width: 2px;
+    height: 50px;
+    background-color: orange;
+    position: relative;
+    top: 130px;
+    left: 40px;
+}
+
+#marker2 {
+    width: 2px;
+    height: 50px;
+    background-color: orange;
+    position: relative;
+    top: 80px;
+    left: 120px;
+}
+
+#character {
+    position: relative;
+    top: 180px;
+    left: 40px;
+  }
+  
+  #character img {
+    width: 95px;
+    height: auto;
+  }
+
+/* .animate{
+    animation: jump 1.0s linear;
+} */
+
+@keyframes moveUp {
+    0%{top: 180px;}
+    50%{top: 135px;}
+    100%{top: 90px;}
+}
+
+@keyframes moveDown {
+  0%{top: 90px;}
+  50%{top: 135px;}
+  100%{top: 180px;}
+}
+
+#block-container {
+  position: relative;
+  top: 130px;
+  left: 1700px;
+  animation: block 10.0s infinite linear;
+}
+
+@keyframes block{
+  0%{left: 1700px}
+  100%{left: -20px}
+}
+  
+#block-container img {
+  width: 50px; /* Adjust the size */
+  height: 50px;
+}
+
+#block-container2 {
+  position: relative;
+  top: -60px;
+  left: 1700px;
+  animation: block 15.0s infinite linear;
+}
+
+@keyframes block2{
+  0%{left: 1700px}
+  100%{left: -20px}
+}
+  
+#block-container2 img {
+  width: 50px; /* Adjust the size */
+  height: 50px;
+}
+  
+  

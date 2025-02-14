@@ -1,5 +1,7 @@
 .App-header {
-  background-color: #282c34;
+  background-image: url("bkg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,4 +9,22 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.top-right-text {
+  position: absolute;
+  top: 80px;    
+  right: 120px;   
+  font-size: 3em;  
+  color: white; 
+  z-index: 11; 
+}
+
+.emoji-tutorial-text {
+  position: absolute;
+  top: 200px;    
+  right: 120px;   
+  font-size: 2em;  
+  color: orange; 
+  z-index: 11; 
 }
